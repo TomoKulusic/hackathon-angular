@@ -1,0 +1,17 @@
+.navigation {
+   display: flex;
+   flex-direction: row-reverse; 
+   margin: 32px;
+}
+
+.nav-item {
+    color: var(--text-color);
+    margin-left: 6vw;
+    text-transform: uppercase;
+    user-select: none;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    color: var(--text-color-hover);
+}
